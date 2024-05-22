@@ -1,0 +1,154 @@
+/* Hide the scrollbar but enable scrolling */
+.more-cards {
+    margin-top: 20px;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  /* Ensure proper positioning for the hero section */
+  .hero {
+    position: relative;
+  }
+  
+  /* Style for the banner image */
+  .banner-img {
+    width: 100%;
+    mask-image: linear-gradient(to right, transparent, black 75%);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 75%);
+  }
+  
+  /* Position and styling for the hero caption */
+  .hero-caption {
+    position: absolute;
+    width: 100%;
+    padding-left: 6%;
+    bottom: 0%;
+  }
+  
+  /* Style for the caption image */
+  .caption-img {
+    width: 90%;
+    max-width: 420px;
+    margin-bottom: 30px;
+  }
+  
+  /* Styling for the paragraph within the hero caption */
+  .hero-caption p {
+    max-width: 700px;
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  
+  /* Aligning and styling for the buttons within the hero section */
+  .hero-btns {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+  }
+  
+  /* Styling for the buttons and adjusting the icon size */
+  .hero-btns .btn {
+    bottom: 0;
+    outline: 0;
+    padding: 8px 20px;
+    display: inline-flex; /* Changed from inline */
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Adjusting the icon size within the button */
+  .hero-btns .btn img {
+    width: 20px; /* Adjust the icon size as needed */
+  }
+  
+  /* Styling for the dark button variant */
+  .hero-btns .btn.dark-btn {
+    color: #fff;
+    background: #6d6d6eb3;
+  }
+  
+  .hero-btns .btn:hover {
+    background: #ffffffbf;
+  }
+  
+  .hero-btns .btn.dark-btn:hover {
+    background: #6d6d6e66;
+  }
+  
+  /* Ensure the background image is behind the text and thumbnails */
+  .hero {
+    position: relative;
+    z-index: 0; /* Ensure the hero content is above the background image */
+  }
+  
+  .banner-img {
+    width: 100%;
+    mask-image: linear-gradient(to right, transparent, black 75%);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 75%);
+  }
+  
+  .hero-caption {
+    position: absolute;
+    width: 100%;
+    padding-left: 6%;
+    bottom: 0;
+    z-index: 1;
+  }
+  
+  .caption-img {
+    width: 90%;
+    max-width: 420px;
+    margin-bottom: 30px;
+  }
+  
+  .hero-caption p {
+    max-width: 700px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .hero-btns {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+  }
+  
+  .hero-btns .btn img {
+    width: 25px;
+  }
+  
+  .hero-btns .btn {
+    bottom: 0;
+    outline: 0;
+    padding: 8px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .hero-btns .btn.dark-btn {
+    color: #fff;
+    background: #6d6d6eb3;
+  }
+/* Hide the scrollbar */
+.more-cards::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for WebKit (Chrome, Safari, etc.) */
+  }
+  
+  .more-cards {
+    margin-top: 20px;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+    
